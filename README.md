@@ -5,7 +5,7 @@ Simple solution of Baidu - Autonomous Driving competition
   My solution (69th private leaderboard) is basing on [CenterNet](https://arxiv.org/pdf/1904.07850.pdf) paper <br/>
 Also I took many useful functions for image pre/postprocessing from public [kernel](https://www.kaggle.com/hocop1/centernet-baseline) (lets upvote!)
 
-#### Instalation
+#### Installation
 ```
 $ pip3 install -r requirements.txt
 ```
