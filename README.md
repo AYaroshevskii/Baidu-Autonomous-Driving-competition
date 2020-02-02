@@ -1,7 +1,7 @@
 ## Peking University/Baidu - Autonomous Driving Competition
 Simple solution of Baidu - Autonomous Driving competition
 #### Model description
-  The main idea of this competition is build the model which can predict 6DoF for every car (not every vechicle!)<br/>
+  The main idea of this competition is to build the model which can predict 6DoF for every car (not every vechicle!)<br/>
   My solution (69th private leaderboard) is basing on [CenterNet](https://arxiv.org/pdf/1904.07850.pdf) paper <br/>
 Also I took many useful functions for image pre/postprocessing from public [kernel](https://www.kaggle.com/hocop1/centernet-baseline) (lets upvote!)
 
