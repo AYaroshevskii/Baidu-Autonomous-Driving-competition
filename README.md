@@ -20,7 +20,7 @@ $ mkdir resized_train
 $ mkdir resized_test
 $ python3 create_resized_dataset.py
 ```
-Also I recommend create folder for models and inferences (for automatizating all another steps):
+Also I recommend creating folder for models and inferences (for automatizating all another steps):
 ```
 $ mkdir models
 $ mkdir inferences
@@ -41,5 +41,5 @@ $ python3 train.py --encoder=b2 --fold=0 --batch_size=2
 #### Visualization
 ![image.png](https://github.com/AYaroshevskii/Baidu-Autonomous-Driving-competition/blob/master/image.png)
 
-#### How it can be improved
-Add stronger augmentation (for example flips, but remember that 6DoF will change), play with image sizes, different losses, deeper models
+#### Further Improvements
+Add stronger augmentation (for example flips, but remember that 6DoF will change), experiment with image sizes, different losses, deeper models
