@@ -20,8 +20,14 @@ $ mkdir resized_train
 $ mkdir resized_test
 $ python3 create_resized_dataset.py
 ```
+Also I recommend create folder for models and inferences (for automatizating all another steps):
+```
+$ mkdir models
+$ mkdir inferences
+```
 
 #### Train Model
+
 ```
 $ python3 train.py --encoder=b2 --fold=0 --batch_size=2 --seed=123 --max_epoch=40
 ```
