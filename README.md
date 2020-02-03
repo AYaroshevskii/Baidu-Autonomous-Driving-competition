@@ -34,9 +34,9 @@ $ python3 train.py --encoder=b2 --fold=0 --batch_size=2 --seed=123 --max_epoch=4
 
 #### Inference
 ```
-$ python3 train.py --encoder=b2 --batch_size=2 --model_checkpoint=models/b2_fold0.pth
+$ python3 test_inference.py --encoder=b2 --batch_size=2 --model_checkpoint=models/b2_fold0.pth
 or
-$ python3 train.py --encoder=b2 --fold=0 --batch_size=2
+$ python3 test_inference.py --encoder=b2 --fold=0 --batch_size=2
 ```
 #### Visualization
 ![image.png](https://github.com/AYaroshevskii/Baidu-Autonomous-Driving-competition/blob/master/image.png)
