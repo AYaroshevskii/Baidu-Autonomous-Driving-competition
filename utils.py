@@ -4,6 +4,7 @@ from tqdm import tqdm_notebook as tqdm
 from torch.utils import data
 import numpy as np
 import pandas as pd
+import torch
 
 
 #Save and load model checkpoint

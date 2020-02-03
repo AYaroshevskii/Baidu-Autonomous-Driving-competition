@@ -54,9 +54,7 @@ train_dataset = CarDataset(df_train, transform = train_transforms)
 valid_dataset = CarDataset(df_dev)
 test_dataset = CarDataset(df_test, root_dir = 'test', transform = test_transforms)
 
-#device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-device = torch.device('cpu')
-enc_name = args.encoder
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model = Model(enc_name).to(device)
 multi_loss = criterion 
 
